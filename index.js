@@ -1,11 +1,6 @@
 import{contact, bookShelf, addNew} from "./modules/Transisions.js"
+import { Book } from "./modules/BookClass.js";
 
-class Book{
-    constructor(title, author){
-        this.title = title;
-        this.author = author;
-    }
-}
 
 class UI {
      static displayBooks() {
