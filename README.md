@@ -26,7 +26,7 @@
 
 # 📖 [Awesome Books ES6] <a name="about-project"></a>
 
- This project includes html, js and css file.
+ This project includes html, js and css file. <br>
  You are able to add your awesome books in here.
 
 ## 🛠 Built With <a name="built-with"></a>
