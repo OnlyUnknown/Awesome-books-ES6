@@ -1,3 +1,4 @@
+import{contact, bookShelf, addNew} from "./modules/Transisions.js"
 
 class Book{
     constructor(title, author){
@@ -96,28 +97,9 @@ document.querySelector("#book-list").addEventListener("click", (e) =>{
     store.removebook( e.target.parentElement.previousElementSibling.previousElementSibling.textContent,e.target.parentElement.previousElementSibling.textContent)
 })
 
-const bookList = document.querySelector('.list-container');
-    const contactForm = document.querySelector('.contact-form');
-    const addBook = document.querySelector('.container');
 
-    
-const contact = () => {
-    contactForm.style.display = 'flex';
-    addBook.style.display = 'none';
-    bookList.style.display = 'none';
-  }
-  
-  const bookShelf = () => {
-    contactForm.style.display = 'none';
-    addBook.style.display = 'none';
-    bookList.style.display = 'block';
-  }
-  
- const addNew = () => {
-    contactForm.style.display = 'none';
-    addBook.style.display = 'block';
-    bookList.style.display = 'none';
-  }
+
+
 
   document.querySelector('.Contact').addEventListener('click', contact);
 
