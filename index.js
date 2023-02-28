@@ -1,14 +1,9 @@
-import{contact, bookShelf, addNew} from "./modules/Transisions.js"
-import { UI } from "./modules/UI-Class.js";
+import { contact, bookShelf, addNew } from './modules/Transisions.js';
+import UI from './modules/UI-Class.js';
 
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
-document.addEventListener("DOMContentLoaded", UI.displayBooks)
-
-
-
-
-
-  document.querySelector('.Contact').addEventListener('click', contact);
+document.querySelector('.Contact').addEventListener('click', contact);
 
 document.querySelector('.Add').addEventListener('click', addNew);
 
