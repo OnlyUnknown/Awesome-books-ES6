@@ -58,6 +58,10 @@ h2 {
   text-align: center;
 }
 
+.Date {
+  text-align: right;
+}
+
 footer {
   position: fixed;
   margin-top: 30px;
