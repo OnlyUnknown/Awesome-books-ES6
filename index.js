@@ -100,19 +100,20 @@ const bookList = document.querySelector('.list-container');
     const contactForm = document.querySelector('.contact-form');
     const addBook = document.querySelector('.container');
 
-function contact() {
+    
+const contact = () => {
     contactForm.style.display = 'flex';
     addBook.style.display = 'none';
     bookList.style.display = 'none';
   }
   
-  function bookShelf() {
+  const bookShelf = () => {
     contactForm.style.display = 'none';
     addBook.style.display = 'none';
     bookList.style.display = 'block';
   }
   
-  function addNew() {
+ const addNew = () => {
     contactForm.style.display = 'none';
     addBook.style.display = 'block';
     bookList.style.display = 'none';
