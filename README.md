@@ -42,7 +42,9 @@
 - Webhint
 - Styleint
 - Technologies used
-
+  ## Live demo
+  [Live Demo]([https://github.com/OnlyUnknown](https://onlyunknown.github.io/Awesome-books-ES6/))
+  
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
